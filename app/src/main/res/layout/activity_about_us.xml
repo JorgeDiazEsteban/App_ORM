@@ -9,17 +9,29 @@
 
     <TextView
         android:id="@+id/AboutUs"
-        android:layout_width="382dp"
-        android:layout_height="75dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:text="@string/AboutUs"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="459dp" />
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ContactUs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
         android:id="@+id/ContactUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="@string/ContactUs"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="657dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AboutUs" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
