@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">APP_ORM</string>
+    <string name="AboutUs">Somos Jorge Diaz, Pablo Mata, Rodrigo Herrero y Diego Diaz, estamos en 2Dam y estamos cerando una app que conecta con una base de datos</string>
+    <string name="ContactUs">Contacte al num telefono: +55 555 555 555, o use el correo:  esoesinventado@gmail.com</string>
 </resources>
